@@ -1,0 +1,5 @@
+interface:
+  display_name: "Krea 프롬프팅"
+  short_description: "Krea 이미지 프롬프트 작성에 사용한다. Krea 2, FLUX.1 Krea 및 Krea 서비스 안의 타사"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Qwen Image 프롬프팅"
+  short_description: "Qwen Image 이미지 생성·편집 프롬프트 작성에 사용한다. T2I와 Image Edit/2.1을 구분하"
+policy:
+  allow_implicit_invocation: true

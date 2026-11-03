@@ -1,0 +1,481 @@
+{
+  "name": "team-prompt-skills",
+  "version": "1.0.0",
+  "manuals_checked": "2026-11-03",
+  "skills": [
+    "midjourney-prompt",
+    "z-image-turbo-prompt",
+    "minimax-r2v-prompt",
+    "qwen-image-prompt",
+    "krea-prompt",
+    "flux-prompt",
+    "seedance-r2v-prompt"
+  ],
+  "files": [
+    {
+      "path": "claude-upload/flux-prompt.zip",
+      "size": 16306,
+      "sha256": "46ff2d8ddc2048831ed1d37c12599a2df553b7b9c9f82e5d5b4b802d84c889f2"
+    },
+    {
+      "path": "claude-upload/krea-prompt.zip",
+      "size": 14551,
+      "sha256": "12be1f84608dfe13154eee485e4acaca4b08c670998a2164c62769a1c4bee07a"
+    },
+    {
+      "path": "claude-upload/midjourney-prompt.zip",
+      "size": 30086,
+      "sha256": "375486184805a9d2eb0135466ee558e44a9a09a8c6b590c075ffeb5a4c35e4c5"
+    },
+    {
+      "path": "claude-upload/minimax-r2v-prompt.zip",
+      "size": 20242,
+      "sha256": "d0fab33dd2c801e64776c93e4c6e7615abc83ece3ba2e1a6b27acdc367e77504"
+    },
+    {
+      "path": "claude-upload/qwen-image-prompt.zip",
+      "size": 14749,
+      "sha256": "c483029ac98eb0edee80ca4ce8d05e35a08b46ee4785bd2222e1c300a63b0d54"
+    },
+    {
+      "path": "claude-upload/seedance-r2v-prompt.zip",
+      "size": 18814,
+      "sha256": "f5ab73b7bd2505d3b9218a1344c999604952d8ac6e81bcf4b6e5f51f0176e089"
+    },
+    {
+      "path": "claude-upload/z-image-turbo-prompt.zip",
+      "size": 12387,
+      "sha256": "95f268b5c98afa443cfc5fe3dee91a1bf9cffb3e8675a93b27c30456c84925cb"
+    },
+    {
+      "path": "install.py",
+      "size": 4971,
+      "sha256": "0e48e2ac55b21878c59a3f6c3c9a7b94b74859ab5628221aecdb1f1dc10ba829"
+    },
+    {
+      "path": "PROJECT_INSTRUCTIONS.md",
+      "size": 1392,
+      "sha256": "381bdff7f350160090ee0b11edc284338ad257aecbb972bb344e525126939180"
+    },
+    {
+      "path": "README.md",
+      "size": 6728,
+      "sha256": "9ea077c20227e0b7d65fc9aa894813bd42ea5d0a8ea2b6451f6a1baef76b35f8"
+    },
+    {
+      "path": "skills/flux-prompt/agents/openai.yaml",
+      "size": 215,
+      "sha256": "a9e38179ea9aadd41e9486cc63996be5be57f7b357702202909380038e66a8ad"
+    },
+    {
+      "path": "skills/flux-prompt/references/editing.md",
+      "size": 3695,
+      "sha256": "4fa3a797a2f9408269d925d178cc3e5ad36966589553bcc6afc3b90b578767d6"
+    },
+    {
+      "path": "skills/flux-prompt/references/examples.md",
+      "size": 3376,
+      "sha256": "8c13f31c0d28cfa33d86aebe266b19a99b569a9a3a7cb79633992a0e9580cf95"
+    },
+    {
+      "path": "skills/flux-prompt/references/guide.md",
+      "size": 982,
+      "sha256": "a20a32f8a686c9c9b5d7200a24f3d6f1f51a541e2a6fe26d4dac41e7a8bf8ad5"
+    },
+    {
+      "path": "skills/flux-prompt/references/image-references.md",
+      "size": 2982,
+      "sha256": "c354b3ae3ecbac4fb474de9a4c4a0866a29990ccda5f0c08fa013d44554faa9e"
+    },
+    {
+      "path": "skills/flux-prompt/references/layout.md",
+      "size": 3119,
+      "sha256": "e9def641c4f3662f044d0a983dcd1a008058ce912a2b3e09c24aed3714e20b44"
+    },
+    {
+      "path": "skills/flux-prompt/references/parameters.md",
+      "size": 3367,
+      "sha256": "18f6428c63691cca1a72f9a25e9ec2e17e0b875436ebeeb67cfd0e59a289929c"
+    },
+    {
+      "path": "skills/flux-prompt/references/prompt-writing.md",
+      "size": 3519,
+      "sha256": "e781326b11ead91777abf673507dc86a3e6f8434ea7727f8c68754a342c9714d"
+    },
+    {
+      "path": "skills/flux-prompt/references/sources.md",
+      "size": 4335,
+      "sha256": "b298a2b98c659909985d6cb82c826f9d0dc2aa70e2004e377af87ae0849bc38a"
+    },
+    {
+      "path": "skills/flux-prompt/references/troubleshooting.md",
+      "size": 1530,
+      "sha256": "1164bcf037d8fced4ac13777f695c5b625b46e9304f50df815f1efa689fa12da"
+    },
+    {
+      "path": "skills/flux-prompt/SKILL.md",
+      "size": 4714,
+      "sha256": "52bbf8788555aa9308425e7aeb5dcee33b7d6f66dab5eda10ae85b48857bab9f"
+    },
+    {
+      "path": "skills/krea-prompt/agents/openai.yaml",
+      "size": 222,
+      "sha256": "825622f5f531358e7bdccc0740eb0feaf604a1976c428971f70a5e59bfc9836f"
+    },
+    {
+      "path": "skills/krea-prompt/references/editing.md",
+      "size": 2434,
+      "sha256": "d61dda6a1f5502ab313a54ed73ade35c673fdcfae28e4dc9360fab1c9f7d6d4c"
+    },
+    {
+      "path": "skills/krea-prompt/references/examples.md",
+      "size": 3316,
+      "sha256": "d180c61d001b11d4184e0cf7ab5b2e325e362be5df5669ad9c9b084d8e6e2bbf"
+    },
+    {
+      "path": "skills/krea-prompt/references/guide.md",
+      "size": 1057,
+      "sha256": "372f09ef3ddcea69fb887b595e58080885372f3c79436b36f34cf5148d444f8d"
+    },
+    {
+      "path": "skills/krea-prompt/references/image-references.md",
+      "size": 3167,
+      "sha256": "32a410ff425372bb14c8db7359122bf006c8c4a4fd5ebecf76868c93630385ec"
+    },
+    {
+      "path": "skills/krea-prompt/references/parameter-snapshot.json",
+      "size": 4659,
+      "sha256": "5ebd5a50e5def470d9f9c54d9ba8f50006b8b47316059f1e269145a69943f480"
+    },
+    {
+      "path": "skills/krea-prompt/references/parameters.md",
+      "size": 2979,
+      "sha256": "113d408f23b05e6159ff52959e9f538b3d11acea3dc56f81cfd8987fcb5b1366"
+    },
+    {
+      "path": "skills/krea-prompt/references/prompt-writing.md",
+      "size": 3246,
+      "sha256": "5db7f08fb05fbc242620f13aef09a148fd3cfbd20bb7c1a1239212911bceb92a"
+    },
+    {
+      "path": "skills/krea-prompt/references/sources.md",
+      "size": 2427,
+      "sha256": "099d53f260f7c93689a82a1a43c213ee1321ac923fc56e82234437ed830c441a"
+    },
+    {
+      "path": "skills/krea-prompt/references/troubleshooting.md",
+      "size": 1512,
+      "sha256": "7353e5cbe2f221601b110dfe2de54eb81a4cc16a3106b72d1839188cbdca96b0"
+    },
+    {
+      "path": "skills/krea-prompt/SKILL.md",
+      "size": 4665,
+      "sha256": "14b3c3d6dfe044a51b746340bd04eb4d304a029c21fb35df731453f3ce553afa"
+    },
+    {
+      "path": "skills/midjourney-prompt/agents/openai.yaml",
+      "size": 259,
+      "sha256": "c2e895cfbeccf6deb1bd6ea1b7c43930145c719ef07f8931f543c90c833a81eb"
+    },
+    {
+      "path": "skills/midjourney-prompt/references/compatibility.json",
+      "size": 3110,
+      "sha256": "252f3e12290e22f6038dc7786eaf663abaf2195f0e49a24d02e10999902ab930"
+    },
+    {
+      "path": "skills/midjourney-prompt/references/editing.md",
+      "size": 3951,
+      "sha256": "0f81702b65c70d14ebd92dda05b6e657b748e803a3840dc028bb2abfec757380"
+    },
+    {
+      "path": "skills/midjourney-prompt/references/examples.md",
+      "size": 4555,
+      "sha256": "f92f9fb6e2b61e8d7c3c71e94d1c4919a5021583da4180a461dd73f6e09211b5"
+    },
+    {
+      "path": "skills/midjourney-prompt/references/guide.md",
+      "size": 1549,
+      "sha256": "da79b3328f04afa0ab0635abba734be83a85a1ae5c5bc54c82baa8c7d8d26d0c"
+    },
+    {
+      "path": "skills/midjourney-prompt/references/image-references.md",
+      "size": 4285,
+      "sha256": "aab0ce98027c7c00009606d1851cee3ee1307f556b55846fdc4678abd8df498a"
+    },
+    {
+      "path": "skills/midjourney-prompt/references/legacy.md",
+      "size": 4625,
+      "sha256": "c5f03e9f2cb87ff6a5f80617ccfbaad063b06655a47ef81add4c55bc127c69d6"
+    },
+    {
+      "path": "skills/midjourney-prompt/references/parameters.md",
+      "size": 5723,
+      "sha256": "94be7b99016eb8afc71c467e32d858596d3c04d3a9119e430dd5275f6ce364bc"
+    },
+    {
+      "path": "skills/midjourney-prompt/references/personalization.md",
+      "size": 3877,
+      "sha256": "128d2aea52fe602fdf1bcce8a2bdd53778c2e5adfd54c27c59e3125554b2e5c6"
+    },
+    {
+      "path": "skills/midjourney-prompt/references/prompt-writing.md",
+      "size": 4701,
+      "sha256": "25cdc83df0f61ec3dda31401b46873cc426a6f869e0289c35dfe69fb8e6354e0"
+    },
+    {
+      "path": "skills/midjourney-prompt/references/sources.md",
+      "size": 7188,
+      "sha256": "6fd8730a7fe6c1ffc3568ff7a96082a9ba5946875d0bf9eafa14468532d27b6c"
+    },
+    {
+      "path": "skills/midjourney-prompt/references/troubleshooting.md",
+      "size": 2411,
+      "sha256": "5be405e449de32cbf57e62b45c6ede9b269335eaeddb26432868055bba8c9970"
+    },
+    {
+      "path": "skills/midjourney-prompt/references/versions.md",
+      "size": 2277,
+      "sha256": "d439c2bb172d7bb6a0527244a2fd0be9bf023f7191443529a4c1dcacdc3dcf5b"
+    },
+    {
+      "path": "skills/midjourney-prompt/references/video.md",
+      "size": 3081,
+      "sha256": "279c1a318ff21f0bd3e61c33184adc138abaae1c3ce55b5efa566b66595c4d6b"
+    },
+    {
+      "path": "skills/midjourney-prompt/references/web-tools.md",
+      "size": 5320,
+      "sha256": "6762f342764b692c0b196b14b081537815366fc24eccfd813cd55de0468cc40a"
+    },
+    {
+      "path": "skills/midjourney-prompt/SKILL.md",
+      "size": 4711,
+      "sha256": "ccd65242bab4f3796f50dfcc2ddef98f752918c3547c92ff2712cfe36dde33b7"
+    },
+    {
+      "path": "skills/minimax-r2v-prompt/agents/openai.yaml",
+      "size": 216,
+      "sha256": "7cde7b559c78b9ce6bf6c94a4c3a99a9ecb98326680a28e66505e47ba365db9a"
+    },
+    {
+      "path": "skills/minimax-r2v-prompt/references/audio.md",
+      "size": 3477,
+      "sha256": "12ded126f5fa0ca11b204f74aa24ef5bc83361a945d400a91bcf967e0eeaa09c"
+    },
+    {
+      "path": "skills/minimax-r2v-prompt/references/examples.md",
+      "size": 6066,
+      "sha256": "b973e074c91d126a254d3b5fca26cf1cf30fc652384d3b2d4ccb39eec82a4d79"
+    },
+    {
+      "path": "skills/minimax-r2v-prompt/references/format.md",
+      "size": 3236,
+      "sha256": "4e4b030593b49b81ed3af2dd4f9932c8c3b816aa8defcfc5edcc2893807ed5a2"
+    },
+    {
+      "path": "skills/minimax-r2v-prompt/references/guide.md",
+      "size": 1075,
+      "sha256": "1e199c84e1921f2338984fd1016a44bf076e9cb5a996ff34f1028caac3d16d0b"
+    },
+    {
+      "path": "skills/minimax-r2v-prompt/references/image-references.md",
+      "size": 3669,
+      "sha256": "47c442e67c16c12d2598f5137b9fa7ff340f452a1397c96359c32584d19941e2"
+    },
+    {
+      "path": "skills/minimax-r2v-prompt/references/native-node-snapshot.json",
+      "size": 5378,
+      "sha256": "e6d60197011f0d59056d14b356c7f17d7546895dc729f8b17f6a8cfad1dd2fb3"
+    },
+    {
+      "path": "skills/minimax-r2v-prompt/references/parameter-snapshot.json",
+      "size": 2595,
+      "sha256": "779553ca737c4dd2acd2c98b6031abe23812fb3da0375931586fef7d67ef1107"
+    },
+    {
+      "path": "skills/minimax-r2v-prompt/references/parameters.md",
+      "size": 3702,
+      "sha256": "e60abc64d8aa24094623c5fd63f13a2530765b54749faa46a4820471a20d2495"
+    },
+    {
+      "path": "skills/minimax-r2v-prompt/references/prompt-writing.md",
+      "size": 4109,
+      "sha256": "a6d18e5cde7ca4c226d6e53bf51c327797ed3ca6ff619e1205efb5612d1d2d06"
+    },
+    {
+      "path": "skills/minimax-r2v-prompt/references/sources.md",
+      "size": 1606,
+      "sha256": "dfc261fb5350ff8607c0bf872509e7d6336ebadf2d428504b0dc9fb447f2703e"
+    },
+    {
+      "path": "skills/minimax-r2v-prompt/references/troubleshooting.md",
+      "size": 2122,
+      "sha256": "0f2f255aa287dcb993104feab6ec24d7b51dc4edc869ad64979462ac86766add"
+    },
+    {
+      "path": "skills/minimax-r2v-prompt/SKILL.md",
+      "size": 4728,
+      "sha256": "ba9dabb7a212828300eda5edfd227dc3d42a712c7ddce6e345f7a7943f877d33"
+    },
+    {
+      "path": "skills/qwen-image-prompt/agents/openai.yaml",
+      "size": 231,
+      "sha256": "dd2400d3cfcadc74cb66993201537802af4e8017a5d2b57e4b1755f847cd2968"
+    },
+    {
+      "path": "skills/qwen-image-prompt/references/editing.md",
+      "size": 3856,
+      "sha256": "6f39a38f5db76d47c728424a246005821b6064d11f278fdaab437118f7d13ae6"
+    },
+    {
+      "path": "skills/qwen-image-prompt/references/examples.md",
+      "size": 4574,
+      "sha256": "6eb6d5affa289901fa4e681feba222878f698ee178c52fdb8fc834dd9f23293b"
+    },
+    {
+      "path": "skills/qwen-image-prompt/references/guide.md",
+      "size": 1031,
+      "sha256": "5ce8af28c08fb0f4aada4e7d580315285c4e89e1160e977155d29c8053fab101"
+    },
+    {
+      "path": "skills/qwen-image-prompt/references/image-references.md",
+      "size": 3121,
+      "sha256": "97e34ef16f6411e002b76ef58e97facd08f9ac227713ad7734fffa72ac1a6da2"
+    },
+    {
+      "path": "skills/qwen-image-prompt/references/parameters.md",
+      "size": 2965,
+      "sha256": "10b9ef98e6547c1d449db6cf31fc90f68d6168755277e6f95ad7ab62d0c00a8e"
+    },
+    {
+      "path": "skills/qwen-image-prompt/references/prompt-writing.md",
+      "size": 3379,
+      "sha256": "d8e755a343e4b2fd779fc64e64b5856f77ef82cb11393820d43132add4f4d5cc"
+    },
+    {
+      "path": "skills/qwen-image-prompt/references/sources.md",
+      "size": 1893,
+      "sha256": "4ab0920bb0f0f69964d18686a58f5c673328c1b7c8147c33661c52407cc46cf1"
+    },
+    {
+      "path": "skills/qwen-image-prompt/references/troubleshooting.md",
+      "size": 1786,
+      "sha256": "3586f468b4c429f8ababa4faf6edffd2964352fbf6fc04da677a40c642f12774"
+    },
+    {
+      "path": "skills/qwen-image-prompt/SKILL.md",
+      "size": 4727,
+      "sha256": "bc119c52970adc17dea78e5983862e108dc972619c8e7bb0d98f7171a5e73a0f"
+    },
+    {
+      "path": "skills/seedance-r2v-prompt/agents/openai.yaml",
+      "size": 220,
+      "sha256": "7c773541b994d3f451cd725d52894635345fe7db0fd690f2b063ce33fabd11d3"
+    },
+    {
+      "path": "skills/seedance-r2v-prompt/references/audio.md",
+      "size": 3257,
+      "sha256": "34e143474d85947ada25b5946c651ae6b8cfc64d613efefbcb00af7eaccac189"
+    },
+    {
+      "path": "skills/seedance-r2v-prompt/references/editing.md",
+      "size": 3100,
+      "sha256": "d211386a58ca858868933ba02a00a9d6b2520f2552a8355eba081d8a9fc31687"
+    },
+    {
+      "path": "skills/seedance-r2v-prompt/references/examples.md",
+      "size": 4639,
+      "sha256": "b40fa7b6a7b3f2f9d69b2bbb5d4b6193d84f4b503a5473e1b2243e5b1c8beba1"
+    },
+    {
+      "path": "skills/seedance-r2v-prompt/references/guide.md",
+      "size": 1059,
+      "sha256": "771b300c5e2659b16d1089dab123b9bbef6459f16df567eea5e097b7b38c3f73"
+    },
+    {
+      "path": "skills/seedance-r2v-prompt/references/image-references.md",
+      "size": 3662,
+      "sha256": "5e2632c7cc328dfb9b91f0b03d87b420bb10f3e1b0c58ef8121cce89482ae974"
+    },
+    {
+      "path": "skills/seedance-r2v-prompt/references/parameter-snapshot.json",
+      "size": 15498,
+      "sha256": "2bdfabef9e99d8361c32e7fe003b00906adb4374a0df794d5fcc08ecf8cd6b67"
+    },
+    {
+      "path": "skills/seedance-r2v-prompt/references/parameters.md",
+      "size": 3684,
+      "sha256": "ceaf64b9c19777f7ff93679335fa7f47592f215e567c656efe88711ce38c979b"
+    },
+    {
+      "path": "skills/seedance-r2v-prompt/references/prompt-writing.md",
+      "size": 3630,
+      "sha256": "b9e717accf2e905dacf67ba15f36714b0393bc45d6e0cf027aca3b3b11bb6f4f"
+    },
+    {
+      "path": "skills/seedance-r2v-prompt/references/sources.md",
+      "size": 2188,
+      "sha256": "1eda58cfbd114220c721a9cfd6515c7b1f9e2fd05b978017712cc1da423aef44"
+    },
+    {
+      "path": "skills/seedance-r2v-prompt/references/troubleshooting.md",
+      "size": 2279,
+      "sha256": "e55c2b2cdf46ef6d0603120cc0b3b3a8d74c4c8d35ed2b1b1aa3882b02101e04"
+    },
+    {
+      "path": "skills/seedance-r2v-prompt/SKILL.md",
+      "size": 4707,
+      "sha256": "3ef6aac5a878486336734840297991fd9cfe3924103ad76b9d0fa9c952897117"
+    },
+    {
+      "path": "skills/z-image-turbo-prompt/agents/openai.yaml",
+      "size": 220,
+      "sha256": "bdffddf3bdbf4a90a1a7249e5af82db8640176642908fc780228a73c401228d1"
+    },
+    {
+      "path": "skills/z-image-turbo-prompt/references/examples.md",
+      "size": 3833,
+      "sha256": "087738b2de541cbf925bc97042c2c74e1488d14be73b7f90b3ef848cc257752c"
+    },
+    {
+      "path": "skills/z-image-turbo-prompt/references/guide.md",
+      "size": 867,
+      "sha256": "a8d1fccf10baa713c140b262bd2c4bf96cca49d6b4104c6a7455f91a17880292"
+    },
+    {
+      "path": "skills/z-image-turbo-prompt/references/image-references.md",
+      "size": 2609,
+      "sha256": "2c70fe7d2b29d45664bafd8cc0f83d101fa4b272e3d8e51860b56ba9e46bb5e2"
+    },
+    {
+      "path": "skills/z-image-turbo-prompt/references/parameters.md",
+      "size": 3094,
+      "sha256": "d1013d5622e17c0ef74afd7dc58aa70af2c43bc266a642ea4c4c60fb8d53d6ff"
+    },
+    {
+      "path": "skills/z-image-turbo-prompt/references/prompt-writing.md",
+      "size": 3752,
+      "sha256": "23412243c03fe500287aa53d4086af7521ab1c8099493ed631af9b8e8c929d3a"
+    },
+    {
+      "path": "skills/z-image-turbo-prompt/references/sources.md",
+      "size": 1295,
+      "sha256": "fbe288bea45f8b9fa8459f8f6aa226777c854e6e9df521ba2ef8b283f75c5061"
+    },
+    {
+      "path": "skills/z-image-turbo-prompt/references/troubleshooting.md",
+      "size": 1594,
+      "sha256": "ec4cc96224903b7811525647834f13c46545b26d0dd7a6b25db162b73f521e8c"
+    },
+    {
+      "path": "skills/z-image-turbo-prompt/SKILL.md",
+      "size": 4689,
+      "sha256": "ff4b7ff9abe765d99f8561ba3ac6d9d701eb54ab3d411055e69340c055185519"
+    },
+    {
+      "path": "USAGE_KO.md",
+      "size": 12643,
+      "sha256": "03fcb5de033f5ddc7b15dbb87c585c685e841f89538c53caa0c88b02e6f0e89c"
+    }
+  ]
+}

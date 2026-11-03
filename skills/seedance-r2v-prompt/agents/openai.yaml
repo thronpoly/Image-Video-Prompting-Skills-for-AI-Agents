@@ -1,0 +1,5 @@
+interface:
+  display_name: "Seedance R2V 프롬프팅"
+  short_description: "Seedance 참조 기반 영상(R2V/omni reference) 프롬프트 작성에 사용한다. 2.0/2.5"
+policy:
+  allow_implicit_invocation: true

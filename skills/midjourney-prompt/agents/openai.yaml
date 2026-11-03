@@ -1,0 +1,5 @@
+interface:
+  display_name: "미드저니 프롬프팅"
+  short_description: "미드저니(Midjourney) 이미지 프롬프트 작성·수정에 사용한다. 장면을 간결하게 정리하고 모델에 맞는 "
+policy:
+  allow_implicit_invocation: true

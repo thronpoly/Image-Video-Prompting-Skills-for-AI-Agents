@@ -1,0 +1,5 @@
+interface:
+  display_name: "Z-Image Turbo 프롬프팅"
+  short_description: "Z-Image-Turbo(z_image_turbo) 이미지 프롬프트 작성·확장에 사용한다. Z-Image B"
+policy:
+  allow_implicit_invocation: true

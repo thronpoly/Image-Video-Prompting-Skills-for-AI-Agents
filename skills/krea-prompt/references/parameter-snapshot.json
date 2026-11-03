@@ -1,0 +1,186 @@
+{
+  "checked": "2026-11-03",
+  "scope": "Frozen incoming request schemas only. Provider and current template limits can differ; read parameters.md.",
+  "routes": [
+    {
+      "source": "https://docs.comfy.org/router-schemas/krea/krea-2-medium-turbo.json",
+      "method": "post",
+      "path": "/v2/models/krea/krea-2-medium-turbo",
+      "schema": {
+        "properties": {
+          "aspect_ratio": {
+            "enum": [
+              "1:1",
+              "4:3",
+              "3:2",
+              "16:9",
+              "2.35:1",
+              "4:5",
+              "2:3",
+              "9:16"
+            ],
+            "type": "string"
+          },
+          "creativity": {
+            "default": "medium",
+            "enum": [
+              "raw",
+              "low",
+              "medium",
+              "high"
+            ],
+            "type": "string"
+          },
+          "image_style_references": {
+            "items": {
+              "$ref": "#/components/schemas/KreaImageStyleReference"
+            },
+            "maxItems": 10,
+            "type": "array"
+          },
+          "moodboards": {
+            "items": {
+              "$ref": "#/components/schemas/KreaMoodboard"
+            },
+            "maxItems": 1,
+            "type": "array"
+          },
+          "prompt": {
+            "type": "string"
+          },
+          "resolution": {
+            "enum": [
+              "1K"
+            ],
+            "type": "string"
+          },
+          "seed": {
+            "nullable": true,
+            "type": "number"
+          },
+          "styles": {
+            "items": {
+              "$ref": "#/components/schemas/KreaStyle"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "prompt",
+          "aspect_ratio",
+          "resolution"
+        ],
+        "type": "object"
+      },
+      "components": {
+        "schemas": {
+          "KreaImageStyleReference": {
+            "properties": {
+              "strength": {
+                "format": "double",
+                "maximum": 2,
+                "minimum": -2,
+                "type": "number"
+              },
+              "url": {
+                "format": "uri",
+                "type": "string"
+              }
+            },
+            "required": [
+              "strength"
+            ],
+            "type": "object"
+          },
+          "KreaMoodboard": {
+            "properties": {
+              "id": {
+                "format": "uuid",
+                "type": "string"
+              },
+              "strength": {
+                "default": 0.35,
+                "format": "double",
+                "maximum": 1.5,
+                "minimum": -0.5,
+                "type": "number"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
+          },
+          "KreaStyle": {
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "strength": {
+                "format": "double",
+                "maximum": 2,
+                "minimum": -2,
+                "type": "number"
+              }
+            },
+            "required": [
+              "id",
+              "strength"
+            ],
+            "type": "object"
+          }
+        }
+      }
+    },
+    {
+      "source": "https://docs.comfy.org/router-schemas/krea/krea-3.json",
+      "method": "post",
+      "path": "/v2/models/krea/krea-3",
+      "schema": {
+        "properties": {
+          "aspect_ratio": {
+            "type": "string"
+          },
+          "image_urls": {
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 8,
+            "type": "array"
+          },
+          "model": {
+            "type": "string"
+          },
+          "negative_prompt": {
+            "maxLength": 1024,
+            "type": "string"
+          },
+          "prompt": {
+            "type": "string"
+          },
+          "regional_edit": {
+            "type": "boolean"
+          },
+          "resolution": {
+            "type": "string"
+          },
+          "seed": {
+            "nullable": true,
+            "type": "integer"
+          },
+          "thinking_mode": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "prompt",
+          "resolution"
+        ],
+        "type": "object"
+      },
+      "components": {
+        "schemas": {}
+      }
+    }
+  ]
+}

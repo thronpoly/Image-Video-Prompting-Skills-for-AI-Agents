@@ -1,0 +1,5 @@
+interface:
+  display_name: "FLUX 프롬프팅"
+  short_description: "FLUX 이미지 생성·편집 프롬프트 작성에 사용한다. FLUX.1, Kontext, FLUX.2/Klein "
+policy:
+  allow_implicit_invocation: true

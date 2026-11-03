@@ -1,0 +1,5 @@
+interface:
+  display_name: "미니맥스 H3 R2V 프롬프팅"
+  short_description: "MiniMax H3 reference-to-video(minimax_h3_r2v) 프롬프트 작성·수정에 사용"
+policy:
+  allow_implicit_invocation: true
