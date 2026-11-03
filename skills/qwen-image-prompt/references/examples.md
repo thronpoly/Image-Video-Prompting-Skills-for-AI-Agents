@@ -3,9 +3,9 @@
 ## A. New typographic image
 User: a Korean exhibition poster, one blue glass bird, title “푸른 새”, portrait.
 ```text
-The image is a vertical minimalist exhibition poster in cobalt blue and warm ivory. A single translucent blue glass bird occupies the lower-center area, its rounded body resting on a low cream pedestal. Across the upper quarter, a large dark-blue Korean headline reads "푸른 새" in a clean, heavy sans-serif typeface. A smaller line directly below reads "11월의 전시" with generous letter spacing and clear separation from the headline. The center of the page stays open, giving the title and object distinct visual zones. The bird's glass edges catch a soft rectangular highlight from the upper left, while a pale blue caustic reflection crosses the pedestal. The background is uninterrupted ivory with no additional props. The overall design uses a precise vertical hierarchy, a restrained two-color palette and ample negative space.
+The image is a vertical minimalist exhibition poster in cobalt blue and warm ivory. A single translucent blue glass bird occupies the lower-center area, its rounded body resting on a low cream pedestal. Across the upper quarter, a large dark-blue Korean headline reads "푸른 새" in a clean, heavy sans-serif typeface. The center of the page stays open, giving the title and object distinct visual zones. The bird's glass edges catch a soft rectangular highlight from the upper left, while a pale blue caustic reflection crosses the pedestal. The background is uninterrupted ivory with no additional props. The overall design uses a precise vertical hierarchy, a restrained two-color palette and ample negative space.
 ```
-Settings: choose a 2:3-aligned canvas for the selected checkpoint. The requested strings stay Korean. Do not infer dates or a venue the user never supplied; the secondary line above is illustrative input and must be omitted when not requested.
+Settings: choose a 2:3-aligned canvas for the selected checkpoint. The requested strings stay Korean. Do not infer dates or a venue the user never supplied; no secondary line is requested or included in this example.
 
 ## B. Local material change, single input
 ```text
