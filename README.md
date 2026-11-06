@@ -4,7 +4,7 @@ Seven model-specific prompting skills for **Codex, Claude Code, and Claude Skill
 
 The English manuals live inside each skill. Agents read the relevant local chapters instead of opening documentation links for every request. Official links remain available for attribution and updates.
 
-**[한국어 설치·사용 설명서](USAGE_KO.md)** · **[Download the complete package](downloads/team-prompt-skills-v1.1.0.zip)**
+**[한국어 설치·사용 설명서](USAGE_KO.md)** · **[Download the complete package](downloads/team-prompt-skills-v1.2.0.zip)**
 
 ## Included skills
 
@@ -22,7 +22,7 @@ Each skill includes a `SKILL.md` entry point and detailed `references/` chapters
 
 ## Quick start
 
-Clone this repository or extract the [standalone ZIP](downloads/team-prompt-skills-v1.1.0.zip). Run installer commands from the repository or extracted package directory. Python 3.8+ is optional; the installer uses only the standard library.
+Clone this repository or extract the [standalone ZIP](downloads/team-prompt-skills-v1.2.0.zip). Run installer commands from the repository or extracted package directory. Python 3.8+ is optional. The installer uses only the standard library.
 
 Verify the bundled skill files:
 
@@ -104,7 +104,7 @@ The installer refuses same-name collisions by default. `--replace` backs up exis
 
 Prompt authoring works without ComfyUI, model files, or MCP. Actual image/video generation requires your own compatible execution tools, installed models, and accessible inputs. The skills use the available host tools and configured MCP server names; they do not install a runtime.
 
-Optional ComfyUI execution rules are provided in [PROJECT_INSTRUCTIONS.md](PROJECT_INSTRUCTIONS.md). Copy the relevant block into your own `AGENTS.md` or `CLAUDE.md` if appropriate. User-selected existing workflows take priority; otherwise use the model's official template and change inputs, prompts, and parameters within the authorized scope.
+ComfyUI execution uses only the user's saved workflow list and reuses a verified workflow on follow-ups. Across all image and video models, revisions combine retained and new instructions in a run from the original sources. Earlier outputs serve as visual comparisons. Apply these rules without a skill mention by copying the project policy into `AGENTS.md` or `CLAUDE.md`. [ComfyUI project instructions](PROJECT_INSTRUCTIONS.md)
 
 ## Package contents
 
@@ -116,14 +116,14 @@ Optional ComfyUI execution rules are provided in [PROJECT_INSTRUCTIONS.md](PROJE
 - `MANIFEST.json`: hashes for the distributable skill files, archives, and installation documents.
 - `downloads/`: the original self-contained team package ZIP.
 
-Version **1.1.0**. Source records were checked on **2026-11-03**. See each skill's source and coverage notes for version boundaries. Numerical API/node snapshots are dated examples, not a claim about your local runtime.
+Version **1.2.0**. Source records were checked on **2026-11-03**. See each skill's source and coverage notes for version boundaries. Numerical API/node snapshots describe the recorded versions.
 
 Model weights, personal images, generated media, user workflows, credentials, and MCP server software are not included. Third-party documentation and product names remain attributable to their respective owners; this is an independent skill collection.
 
 ## Updating and checking this collection
 
-Version 1.1.0 keeps the detailed manuals and adds a shorter default read path, essential reference/setup output, and a corrected Qwen lettering example. H3/Seedance tasks still load their required specialist chapters.
+Version 1.2.0 restricts ComfyUI workflow selection to saved workflows and applies the original-source revision rule to all ComfyUI image and video models.
 
-The canonical distributable sources are `skills/` in this repository. After editing skills or documents, run `python scripts/build_package.py --version 1.1.0`, then `python install.py --verify`. This rebuilds the individual Claude ZIPs, repository manifest and standalone ZIP together. The builder uses Python 3.8+ and performs no downloads. Existing release ZIPs remain available.
+The canonical distributable sources are `skills/` in this repository. After editing skills or documents, run `python scripts/build_package.py --version 1.2.0`, then `python install.py --verify`. This rebuilds the individual Claude ZIPs, repository manifest and standalone ZIP together. The builder uses Python 3.8+ and performs no downloads. Existing release ZIPs remain available.
 
 See [evals/README.md](evals/README.md) for behavioral cases and success criteria. Installation/hash checks and text-only forward checks do not establish improved image/video output quality.

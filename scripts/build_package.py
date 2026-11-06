@@ -41,7 +41,7 @@ def manifest(files, skills, version):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--version', default='1.1.0')
+    parser.add_argument('--version', default='1.2.0')
     args = parser.parse_args()
     if not re.fullmatch(r'\d+\.\d+\.\d+', args.version):
         parser.error('Use a numeric semantic version, such as 1.1.0')
